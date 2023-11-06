@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f5afdd5f5a5416dbcce0a2b8d28bd18" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="MecuryshopModel.DonHang" Width="1.5" PointX="5.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MecuryshopModel.sysdiagram" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="MecuryshopModel.tbl_Customer" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MecuryshopModel.tbl_Product" Width="1.5" PointX="5.375" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="MecuryshopModel.FK_DonHang_tbl_Customer" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MecuryshopModel.CTDonHang" Width="1.5" PointX="8.375" PointY="1.625" />
+        <AssociationConnector Association="MecuryshopModel.FK_CTDonHang_DonHang1" />
+        <AssociationConnector Association="MecuryshopModel.FK_CTDonHang_tbl_Product1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
